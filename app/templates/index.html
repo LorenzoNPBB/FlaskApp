@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hey</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style.css')}}">  <!-- FLASK NOS AYUDA A BUSCAR EL CSS DE FORMA AUTOMATICA PONIENDOLO ASI-->
+</head>
+
+<body>
+    <h1> Lista de tareas</h1>
+
+    <ul id="lista3">
+        {% for tarea in tareas %}
+        <li>{{ tarea }}</li>
+        {% endfor%}
+    </ul>
+
+    <a href="{{ url_for('agregar') }}"> Agregar tarea </a>
+
+</body>
+
+</html>

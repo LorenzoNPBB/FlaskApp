@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hey</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style.css')}}">  <!-- FLASK NOS AYUDA A BUSCAR EL CSS DE FORMA AUTOMATICA PONIENDOLO ASI-->
+</head>
+
+<body>
+
+    <form method="POST">
+        {{ form.csrf_token }} <!-- METODO DE SEGURIDAD PARA QUE OTRA PERSONA CON UN FORMULARIO NO PUEDA METERSE EN NUESTRA APP -->
+        {{ form.tarea.label}}
+        {{ form.tarea()}}
+        <button class="button">Agregar Tarea</button>
+    </form>
+
+    <a href="{{ url_for('index') }}"> Regresar al inicio </a>
+</body>
+
+</html>
