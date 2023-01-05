@@ -8,37 +8,47 @@
 
 Una vez iniciado (play) nos vamos al navegador e introducimos la ruta que nos proporciona. :+1:
 
+### La base de datos la he subido a CleverCloud.
 
-Esta es la página principal de nuestra aplicación WEB.
+![CleverCloud](https://images2.imgbox.com/42/78/V67Vi7pO_o.jpg "CleverCloud")
+
+### El cliente usado para crear la base de datos es MySQL Workbench.
+
+![MySQL](https://images2.imgbox.com/62/75/lPY3jNqL_o.jpg "MySQL")
+
+Esta es la página principal de mi aplicación WEB.
 En el puedes introducir el UsuarioAlumno, el Nombre y la Password para después darle a Guardar e introducir datos.
 Estos datos ya introducidos los he metido directamente desde la página.
 -------------------------------
-![Introducción](https://images2.imgbox.com/e9/31/iARTcYlO_o.jpg "Página Principal")
+![Introducción](https://images2.imgbox.com/31/75/0Zpg9ztq_o.jpg "Página Principal")
 
 
-Donde a su vez al hacer un SELECT * FROM IES salen los datos que ya hemos introducido.
+Donde a su vez al hacer un SELECT * FROM IES en MySQL Workbench salen los datos que ya hemos introducido en nuestra aplicación web.
 -----------------------------------
-![BaseDatos](https://images2.imgbox.com/4d/d6/GBYf84xb_o.jpg "BaseDatos")
+![BaseDatos](https://images2.imgbox.com/40/71/IjNMdD4C_o.jpg "BaseDatos")
 
 También podemos modificar los datos desde la página web dando a EDIT en un registro.
 -----------------------------------
-![Edicion](https://images2.imgbox.com/d9/86/QEISl0pl_o.jpg "Edicion")
+![Edicion](https://images2.imgbox.com/4c/32/0fgOkPbR_o.jpg "Edicion")
 
 Una vez le demos a save changes nos modificará los cambios tanto en nuestra app como en la base de datos.
 -----------------------------------
-![Edicion](https://images2.imgbox.com/94/54/gvaR3MOL_o.jpg "Edicion")
+![Edicion](https://images2.imgbox.com/61/36/uWHFXr0b_o.jpg "Edicion")
 
-Aquí el cambio en mi PhpMyAdmin
+Aquí el cambio en MySQLWorkbench
 -----------------------------------
-![Edicion](https://images2.imgbox.com/94/54/gvaR3MOL_o.jpg "Edicion")
+![Edicion](https://images2.imgbox.com/85/85/I0tcKN5W_o.jpg "Edicion")
 
 Si le damos a Delete se nos borra tanto en nuestra app como en la base de datos.
 -----------------------------------
-![Borrar](https://images2.imgbox.com/79/b8/jOf7tECy_o.jpg "Borrar")
+![Borrar](https://images2.imgbox.com/23/9e/SXdh7f5d_o.jpg "Borrar")
 
 Aqui vemos que se ha borrado en la base de datos.
 -----------------------------------
-![Borrar](https://images2.imgbox.com/88/12/Fk9DxB0a_o.jpg "Borrar")
+![Borrar](https://images2.imgbox.com/f9/ba/YXJsUcX9_o.jpg "Borrar")
+
+
+
 
 
 **En el repositorio dejo la carpeta con la app de Python**
