@@ -2,8 +2,8 @@
 
 ### Para iniciar la aplicación tenemos que tener instalado 
 
-- **pip install flask**  --> para hacer la app
-- **pip install mysql-connector-python==8.0.29** --> para hacer la conexión de nuestro python a la base de datos
+- **pip install flask**  --> para hacer la app **Si no funciona ese comando prueba py -m pip install flask
+- **pip install mysql-connector-python==8.0.29** --> para hacer la conexión de nuestro python a la base de datos **Si no funciona ese comando prueba py -m pip install mysql-connector-python==8.0.29 
 
 
 Una vez iniciado (play) nos vamos al navegador e introducimos la ruta que nos proporciona. :+1:
