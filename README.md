@@ -52,5 +52,5 @@ Aqui vemos que se ha borrado en la base de datos.
 
 
 **En el repositorio dejo la carpeta con la app de Python**
-**Y también el docker exportado con la base de datos**
+
 
